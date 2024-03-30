@@ -31,3 +31,5 @@ class IceCreamStand(Restaurant):
 resaurant_of_my_dream = IceCreamStand("Мечта", "Италия")
 
 resaurant_of_my_dream.show_all_flavors()
+
+#test
