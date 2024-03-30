@@ -1,4 +1,4 @@
-#Упражнение из книги 9.6 Обьявляем класс
+#Упражнение из книги 9.10 Импортирование из модуля
 class Restaurant():
     def __init__(self,restaurant_name, cuisine_type):
         self.restaurant_name = restaurant_name
@@ -26,10 +26,3 @@ class IceCreamStand(Restaurant):
     def show_all_flavors(self):
         for i in range(0,len(self.flavors)):
                 print(f"Сорт мороженного:{self.flavors[i]}")
-
-
-resaurant_of_my_dream = IceCreamStand("Мороженновелло", "Италия")
-
-resaurant_of_my_dream.show_all_flavors()
-
-#test
